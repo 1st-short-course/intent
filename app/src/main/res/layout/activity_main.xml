@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.intentapp.MainActivity">
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_centerInParent="true"
+        android:id="@+id/btnLogin"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:textSize="16dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/btnLogin"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvSignup"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="open browser"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnOpenBrowser"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/tvSignup"
+            android:background="@color/colorPrimary"
+            android:textColor="#ffffff"/>
+</RelativeLayout>
